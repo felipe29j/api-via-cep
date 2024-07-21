@@ -41,15 +41,17 @@ Siga estes passos para configurar e executar o projeto:
         http://localhost:8000/search/local/01001000,17560-246
 
       
-**Estrutura do Projeto**  
+## Estrutura do Projeto
+
     app/Http/Controllers/SearchController.php: Controlador responsável por buscar dados de endereços usando a API ViaCEP.
     routes/web.php: Define a rota para a consulta de CEPs.
     .env: Configurações do ambiente, como driver de sessão.
 
-**Problemas Conhecidos**  
+## Problemas Conhecidos
+
     Problemas com SSL: Se você encontrar erros relacionados a certificados SSL, considere atualizar o CA Bundle do cURL ou desativar temporariamente a verificação SSL (não recomendado para produção).
 
-**Contribuições**  
+## Contribuições
     Sinta-se à vontade para contribuir com melhorias ou correções. Para enviar uma contribuição, siga estas etapas:
 
         1.Faça um fork do repositório.
